@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: rgb(0, 162, 255);
 }
 
 /* Section Styles */
@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(0, 162, 255)
 }
 
 header {
   text-align: center;
-  background: url('images/cleveland-night.jpg') no-repeat top center ;
+  background: url('images/city.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -83,7 +83,13 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  transition: all .3s
 } 
+
+header .tag:hover {
+  transform: scale(1.2);
+}
+
 .location {
   background-color: #222;
   color: rgb(0, 162, 255);
@@ -99,7 +105,8 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: rgb(0, 162, 255);
+  border-color: black;
+  background-color: lightgrey;
 }
 
 ul.skills {
